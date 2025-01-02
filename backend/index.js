@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.post("/api/flight-search", async (req, res) => {
-  const { departureCity, destinationCity, departureDate, passengers, travelClass } = req.body;
+  const { departureCity, destinationCity, departureDate, returnDate, passengers, travelClass } = req.body;
 
   try {
     const tokenResponse = await axios.post(
@@ -31,7 +31,8 @@ app.post("/api/flight-search", async (req, res) => {
         params: {
           originLocationCode: departureCity,
           destinationLocationCode: destinationCity,
-          departureDate,
+          departureDate ,
+          returnDate,
           adults: passengers,
           travelClass,
         },
