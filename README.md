@@ -1,4 +1,4 @@
-# Travel Booking Website
+# Flight Booking Website
 
 A responsive travel booking website that allows users to search flights, book tickets, and learn about the booking process with a clean and intuitive user interface. Built using React.js and TailwindCSS.
 
@@ -24,5 +24,5 @@ A responsive travel booking website that allows users to search flights, book ti
 
 ## Project Run
 
-Backend -  node index.js
-Fronend - npm Start
+- **Backend** -  node index.js
+- **Fronend** - npm Start
