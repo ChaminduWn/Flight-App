@@ -1,5 +1,8 @@
 # Flight Booking Website
 
+![Screenshot 2025-01-03 111313](https://github.com/user-attachments/assets/73717b37-a4e3-49f2-b824-87b8f6542945)
+
+
 A responsive travel booking website that allows users to search flights, book tickets, and learn about the booking process with a clean and intuitive user interface. Built using React.js and TailwindCSS.
 
 ---
