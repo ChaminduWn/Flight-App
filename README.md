@@ -19,6 +19,8 @@ A responsive travel booking website that allows users to search flights, book ti
 - **Frontend**: React.js, TailwindCSS
 - **Icons**: Font Awesome (React Icons)
 - **Routing**: React Router
+- **Amadeus API**
+
 
 ---
 
